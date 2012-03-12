@@ -1,0 +1,21 @@
+{
+  "name": "scanner",
+  "description": "scans the interwebs.",
+  "version": "0.0.1",
+  "author": "Rex Morgan",
+  "dependencies": {
+    "kue": "0.3.x",
+    "jsdom": "0.2.x",
+    "cluster": "0.7.x",
+    "hiredis": "0.1.x"
+  },
+  "engines": {
+    "node": "0.6.x"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "http://github.com/rexmorgan/scanner.git"
+    }
+  ]
+}
